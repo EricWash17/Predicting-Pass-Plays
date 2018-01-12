@@ -1,9 +1,9 @@
 # Predicting-Pass-Plays
 Knowing when an opponent will run or pass can dramatically alter how a team plays defense. Using ESPN API play-by-play college football data collected by Reddit users, I implemented a XGBoost classification model to predict passing plays. I trained and validated using the 2014-2016 seasons, and tested the model on 2017 season data. The model achieved 70% accuracy. 
 
-## The variables used in the model include:
+# The variables used in the model include:
 
-# Game Variables
+## Game Variables
 - Downs (1-4)
 - Distance to 1st down
 - Yardline (Yards to goaline)
@@ -17,7 +17,7 @@ Interactions
 - Down * distance
 - Score * time
 
-# Calculated Variables 
+## Calculated Variables 
 (All calculated data was lagged, meaning the variables were based on plays prior to the given prediction) 
 
 Within Game Calculations
