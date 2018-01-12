@@ -3,7 +3,7 @@ Knowing when an opponent will run or pass can dramatically alter how a team play
 
 The variables used in the model include:
 
-Game Variables
+# Game Variables
 - Downs (1-4)
 - Distance to 1st down
 - Yardline (Yards to goaline)
@@ -17,7 +17,7 @@ Interactions
 - Down * distance
 - Score * time
 
-Calculated Variables (All calculated data was lagged, meaning the variables were based on plays prior to the given prediction) 
+# Calculated Variables (All calculated data was lagged, meaning the variables were based on plays prior to the given prediction) 
 
 Within Game Calculations
 - Moving average of last 5 pass and run plays, repectively. 
