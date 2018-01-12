@@ -1,7 +1,7 @@
 # Predicting-Pass-Plays
 Knowing when an opponent will run or pass can dramatically alter how a team plays defense. Using play-by-play data collected by Reddit users from ESPN's API, I implemented a XGBoost classification model to predict passing plays. I trained and validated using the 2014-2016 seasons, and tested the model on 2017 season data. The model achieved 70% accuracy. 
 
-The variables used in the model include:
+## The variables used in the model include:
 
 # Game Variables
 - Downs (1-4)
@@ -17,7 +17,8 @@ Interactions
 - Down * distance
 - Score * time
 
-# Calculated Variables (All calculated data was lagged, meaning the variables were based on plays prior to the given prediction) 
+# Calculated Variables 
+(All calculated data was lagged, meaning the variables were based on plays prior to the given prediction) 
 
 Within Game Calculations
 - Moving average of last 5 pass and run plays, repectively. 
@@ -28,8 +29,9 @@ Season Calculations
 - Pass probability (Historical probability of passing on given down and distance that season)
 - Season pass percentage (Pass plays as percent of total plays that season)
 
-Missing information that could improve this model include:\
+# Missing information that could improve this model include:
 - QB scrambles. In the current data set, there is no way to differentiate between called QB runs and QB scrambles. In other words, a team could call a pass play that, due to QB improvisation, turns into a run play.  
 - Formation information.
 
-Lastly, although I tried stacking several tyes of models (Random Forest, Neural Net, Lasso Logistic, Naive Baye), the XGBoost alone still performed the best. 
+# Models
+Lastly, although I tried stacking several types of models (Random Forest, Neural Net, Lasso Logistic, Naive Bayes), the XGBoost alone  performed the best. 
