@@ -17,7 +17,7 @@ Interactions
 - Down * distance
 - Score * time
 
-Calculated Variables (All info lagged, meaning it is based on plays prior to the given prediction) 
+Calculated Variables (All calculated data was lagged, meaning the variables are based on plays prior to the given prediction) 
 In-game 
 - Moving average of last 5 pass and run plays, repectively. 
 - Consecutive passes and runs
