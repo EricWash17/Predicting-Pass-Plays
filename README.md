@@ -18,7 +18,8 @@ Interactions
 - Score * time
 
 Calculated Variables (All calculated data was lagged, meaning the variables were based on plays prior to the given prediction) 
-In-game 
+
+Within Game Calculations
 - Moving average of last 5 pass and run plays, repectively. 
 - Consecutive passes and runs
 - Percent of total plays that were passes in the given game
