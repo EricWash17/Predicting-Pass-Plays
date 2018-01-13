@@ -29,9 +29,9 @@ Season Calculations
 - Pass probability (Historical probability of passing on given down and distance that season)
 - Season pass percentage (Pass plays as percent of total plays that season)
 
+# Models
+Although I tried stacking several types of models (Random Forest, Neural Net, Lasso Logistic, Naive Bayes), the XGBoost alone performed the best. 
+
 # Missing information that could improve this model include:
 - QB scrambles. In the current data set, there is no way to differentiate between called QB runs and QB scrambles. In other words, a team could call a pass play that, due to QB improvisation, turns into a run play.  
 - Formation information.
-
-# Models
-Lastly, although I tried stacking several types of models (Random Forest, Neural Net, Lasso Logistic, Naive Bayes), the XGBoost alone  performed the best. 
