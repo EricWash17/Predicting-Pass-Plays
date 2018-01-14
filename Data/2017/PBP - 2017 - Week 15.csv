@@ -1,0 +1,129 @@
+gameId,year,week,homeId,homeTeam,homeAbbr,awayId,awayTeam,awayAbbr,driveIndex,playIndex,offenseId,offenseTeam,offenseAbbr,defenseId,defenseTeam,defenseAbbr,homeScore,awayScore,isScoringPlay,quarter,clock,type,down,distance,yardLine,yardsGained,endYardLine,description
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,0,2426,Navy,NAVY,349,Army,ARMY,0,0,FALSE,1,15:00,Kickoff,1,10,35,13,68,"Bennett Moehring kickoff for 46 yds , John Trainor return for 13 yds to the Army 32"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,1,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,14:55,Rush,1,10,68,6,62,Darnell Woolfolk run for 6 yds to the Army 38
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,2,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,14:07,Rush,2,4,62,2,60,Ahmad Bradshaw run for 2 yds to the Army 40
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,3,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,13:25,Rush,3,2,60,2,58,Ahmad Bradshaw run for 2 yds to the Army 42 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,4,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,12:46,Rush,1,10,58,33,25,Kell Walker run for 33 yds to the Navy 25 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,5,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,12:09,Rush,1,10,25,5,20,Ahmad Bradshaw run for 5 yds to the Navy 20
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,6,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,11:37,Rush,2,5,20,6,14,Darnell Woolfolk run for 6 yds to the Navy 14 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,7,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,10:58,Rush,1,10,14,4,10,Ahmad Bradshaw run for 4 yds to the Navy 10
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,8,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,10:13,Rush,2,6,10,3,7,Ahmad Bradshaw run for 3 yds to the Navy 7
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,9,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,9:29,Rush,3,3,7,2,5,Darnell Woolfolk run for 2 yds to the Navy 5
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,10,349,Army,ARMY,2426,Navy,NAVY,0,0,FALSE,1,8:47,Rush,4,1,5,2,3,Kell Walker run for 2 yds to the Navy 3 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,0,11,349,Army,ARMY,2426,Navy,NAVY,0,7,TRUE,1,8:06,Rushing Touchdown,1,0,3,3,0,Darnell Woolfolk 3 Yd Run (Blake Wilson Kick)
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,0,349,Army,ARMY,2426,Navy,NAVY,0,7,FALSE,1,8:06,Kickoff,1,10,65,15,25,"Nick Schrage kickoff for 55 yds , Darryl Bonner return for 15 yds to the Navy 25"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,1,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,7:53,Rush,1,10,25,9,34,Malcolm Perry run for 9 yds to the Navy 34
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,2,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,7:21,Rush,2,1,34,6,40,Malcolm Perry run for 6 yds to the Navy 40 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,3,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,6:47,Rush,1,10,40,7,47,Malcolm Perry run for 7 yds to the Navy 47
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,4,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,6:09,Rush,2,3,47,5,52,Malcolm Perry run for 5 yds to the Army 48 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,5,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,5:35,Rush,1,10,52,19,71,Malcolm Perry run for 19 yds to the Army 29 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,6,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,4:54,Rush,1,10,71,5,76,Joshua Walker run for 5 yds to the Army 24
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,7,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,4:20,Rush,2,5,76,4,80,Malcolm Perry run for 4 yds to the Army 20
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,8,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,3:32,Rush,3,1,80,0,80,Chris High run for no gain to the Army 20
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,9,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,3:06,Rush,4,1,80,1,81,Zach Abey run for 1 yd to the Army 19 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,10,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,2:36,Rush,1,10,81,4,85,Malcolm Perry run for 4 yds to the Army 15
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,11,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,1:51,Rush,2,6,85,3,88,Malcolm Perry run for 3 yds to the Army 12
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,12,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,1:09,Rush,3,3,88,1,89,Malcolm Perry run for 1 yd to the Army 11
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,13,2426,Navy,NAVY,349,Army,ARMY,0,7,FALSE,1,0:59,Timeout,4,2,89,0,89,"Timeout NAVY, clock 00:59"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,1,14,2426,Navy,NAVY,349,Army,ARMY,3,7,TRUE,1,0:55,Field Goal Good,4,2,89,28,89,Bennett Moehring 28 Yd Field Goal 
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,0,2426,Navy,NAVY,349,Army,ARMY,3,7,FALSE,1,0:55,Kickoff,4,2,35,0,75,Bennett Moehring kickoff for 65 yds for a touchback
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,1,349,Army,ARMY,2426,Navy,NAVY,3,7,FALSE,1,0:47,Rush,1,10,75,7,68,Ahmad Bradshaw run for 7 yds to the Army 32
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,2,349,Army,ARMY,2426,Navy,NAVY,3,7,FALSE,1,0:00,Rush,2,3,68,10,58,"Ahmad Bradshaw run for no gain to the Army 32 for a 1ST down NAVY Penalty, Defensive Holding (Brandon Jones) to the Army 42 for a 1ST down"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,3,349,Army,ARMY,2426,Navy,NAVY,3,7,FALSE,1,0:00,End Period,0,3,0,0,58,End of 1st Quarter
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,4,349,Army,ARMY,2426,Navy,NAVY,3,7,FALSE,2,14:55,Rush,1,10,58,-3,61,John Trainor run for a loss of 3 yards to the Army 39
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,5,349,Army,ARMY,2426,Navy,NAVY,3,7,FALSE,2,14:13,Rush,2,13,61,0,61,Kell Walker run for no gain to the Army 39
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,6,349,Army,ARMY,2426,Navy,NAVY,3,7,FALSE,2,13:33,Rush,3,13,61,9,52,Andy Davidson run for 9 yds to the Army 48
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,2,7,349,Army,ARMY,2426,Navy,NAVY,3,7,FALSE,2,13:00,Punt,4,4,52,0,26,"Nick Schrage punt for 26 yds, downed at the Navy 26"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,3,0,2426,Navy,NAVY,349,Army,ARMY,3,7,FALSE,2,12:51,Rush,1,10,26,2,28,Keoni-Kordell Makekau run for 2 yds to the Navy 28
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,3,1,2426,Navy,NAVY,349,Army,ARMY,3,7,FALSE,2,12:11,Rush,2,8,28,4,32,Malcolm Perry run for 4 yds to the Navy 32
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,3,2,2426,Navy,NAVY,349,Army,ARMY,10,7,TRUE,2,11:28,Rushing Touchdown,3,4,32,68,100,Malcolm Perry 68 Yd Run (Bennett Moehring Kick)
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,4,0,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,11:28,Kickoff,3,4,35,11,80,"Bennett Moehring kickoff for 56 yds , Glen Coates return for 11 yds to the Army 20"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,4,1,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,11:15,Rush,1,10,80,3,77,Darnell Woolfolk run for 3 yds to the Army 23
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,4,2,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,10:34,Rush,2,7,77,5,72,Kell Walker run for 5 yds to the Army 28
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,4,3,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,9:50,Rush,3,2,72,0,72,Ahmad Bradshaw run for no gain to the Army 28
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,4,4,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,9:13,Punt,4,2,72,0,33,"Nick Schrage punt for 39 yds, fair catch by Craig Scott at the Navy 33"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,5,0,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,9:10,Rush,1,10,33,2,35,Zach Abey run for 2 yds to the Navy 35
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,5,1,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,8:25,Pass Reception,2,8,35,2,37,Zach Abey pass complete to Malcolm Perry for 2 yds to the Navy 37
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,5,2,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,7:44,Pass Incompletion,3,6,37,0,37,Craig Scott pass incomplete to Malcolm Perry
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,5,3,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,7:33,Punt,4,6,37,0,63,"Owen White punt for 26 yds, downed at the Army 37"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,6,0,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,7:27,Rush,1,10,63,10,53,Darnell Woolfolk run for 10 yds to the Army 47 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,6,1,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,6:54,Rush,1,10,53,2,51,Andy Davidson run for 2 yds to the Army 49
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,6,2,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,6:15,Rush,2,8,51,2,49,Darnell Woolfolk run for 2 yds to the Navy 49
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,6,3,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,5:57,Rush,3,6,49,-1,50,Ahmad Bradshaw run for a loss of 1 yard to the 50 yard line
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,6,4,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,5:22,Punt,4,7,50,0,20,"Nick Schrage punt for 30 yds, punt out-of-bounds at the Navy 20"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,0,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,5:12,Rush,1,10,20,9,29,Malcolm Perry run for 9 yds to the Navy 29
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,1,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,4:36,Rush,2,1,29,5,34,Chris High run for 5 yds to the Navy 34 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,2,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,4:03,Rush,1,10,34,2,36,Chris High run for 2 yds to the Navy 36
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,3,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,3:23,Rush,2,8,36,4,40,Chris High run for 4 yds to the Navy 40
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,4,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,2:40,Rush,3,4,40,2,42,Malcolm Perry run for 2 yds to the Navy 42
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,5,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,2:30,Penalty,4,2,42,5,47,"ARMY Penalty, Defensive Offside (Jaylon McClinton) to the Navy 47 for a 1ST down"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,6,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,2:00,Rush,1,10,47,3,50,Chris High run for 3 yds to the 50 yard line
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,7,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,1:22,Rush,2,7,50,3,53,Malcolm Perry run for 3 yds to the Army 47
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,8,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,0:50,Rush,3,4,53,2,55,Malcolm Perry run for 2 yds to the Army 45
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,9,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,0:16,Timeout,4,2,55,0,55,"Timeout NAVY, clock 00:16"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,7,10,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,2,0:09,Punt,4,2,55,0,80,Owen White punt for 45 yds for a touchback
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,8,0,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,0:00,Rush,1,10,80,7,73,Darnell Woolfolk run for 7 yds to the Army 27
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,8,1,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,2,0:00,End of Half,0,10,0,0,73,End of 2nd Quarter
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,0,349,Army,ARMY,2426,Navy,NAVY,10,7,FALSE,3,15:00,Kickoff,1,10,65,12,23,"Nick Schrage kickoff for 54 yds , Darryl Bonner return for 12 yds to the Navy 23"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,1,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,14:47,Rush,1,10,23,9,32,Malcolm Perry run for 9 yds to the Navy 32
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,2,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,14:08,Rush,2,1,32,4,36,Malcolm Perry run for 4 yds to the Navy 36 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,3,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,14:00,Rush,1,10,36,7,43,Joshua Walker run for 7 yds to the Navy 43
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,4,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,12:48,Rush,2,3,43,0,43,Malcolm Perry run for no gain to the Navy 43
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,5,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,12:04,Rush,3,3,43,46,89,Malcolm Perry run for 46 yds to the Army 11 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,6,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,11:22,Rush,1,10,89,4,93,Chris High run for 4 yds to the Army 7
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,7,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,10:22,Rush,2,6,93,0,93,Malcolm Perry run for no gain to the Army 7
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,8,2426,Navy,NAVY,349,Army,ARMY,10,7,FALSE,3,10:02,Rush,3,6,93,1,94,Malcolm Perry run for 1 yd to the Army 6
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,9,9,2426,Navy,NAVY,349,Army,ARMY,13,7,TRUE,3,9:16,Field Goal Good,4,5,94,24,94,Bennett Moehring 24 yd FG GOOD
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,0,2426,Navy,NAVY,349,Army,ARMY,13,7,FALSE,3,9:16,Kickoff,4,5,35,10,80,"Bennett Moehring kickoff for 55 yds , Glen Coates return for 10 yds to the Army 20"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,1,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,9:05,Rush,1,10,80,1,79,Andy Davidson run for 1 yd to the Army 21
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,2,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,9:00,Rush,2,9,79,2,77,Ahmad Bradshaw run for 2 yds to the Army 23
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,3,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,8:00,Pass Reception,3,7,77,20,57,Ahmad Bradshaw pass complete to Calen Holt for 20 yds to the Army 43 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,4,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,7:06,Rush,1,10,57,2,55,Ahmad Bradshaw run for 2 yds to the Army 45
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,5,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,6:17,Rush,2,8,55,21,34,Ahmad Bradshaw run for 21 yds to the Navy 34 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,6,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,5:38,Rush,1,10,34,9,25,Darnell Woolfolk run for 9 yds to the Navy 25
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,7,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,5:03,Rush,2,1,25,3,22,Darnell Woolfolk run for 3 yds to the Navy 22 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,8,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,4:25,Rush,1,10,22,4,18,Andy Davidson run for 4 yds to the Navy 18
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,9,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,3:46,Rush,2,6,18,3,15,Andy Davidson run for 3 yds to the Navy 15
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,10,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,3:05,Rush,3,3,15,3,12,Darnell Woolfolk run for 3 yds to the Navy 12 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,11,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,2:31,Rush,1,10,12,3,9,Andy Davidson run for 3 yds to the Navy 9
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,12,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,1:45,Rush,2,7,9,-1,10,Kell Walker run for a loss of 1 yard to the Navy 10
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,13,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,1:05,Penalty,3,8,10,-5,15,"ARMY Penalty, False Start (Rick Kurz) to the Navy 15"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,14,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,0:41,Timeout,3,13,15,0,15,"Timeout ARMY, clock 00:41"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,15,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,0:00,Rush,3,13,15,-3,18,John Trainor run for a loss of 3 yards to the Navy 18
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,16,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,3,0:00,End Period,0,13,0,0,18,End of 3rd Quarter
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,10,17,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,14:55,Field Goal Missed,4,16,18,35,20,Blake Wilson 35 yd FG MISSED
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,11,0,2426,Navy,NAVY,349,Army,ARMY,13,7,FALSE,4,14:55,Penalty,1,10,20,-5,15,"NAVY Penalty, False Start (-5 Yards) to the Navy 15"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,11,1,2426,Navy,NAVY,349,Army,ARMY,13,7,FALSE,4,14:48,Rush,1,15,15,4,19,Chris High run for 4 yds to the Navy 19
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,11,2,2426,Navy,NAVY,349,Army,ARMY,13,7,FALSE,4,14:06,Rush,2,11,19,3,22,Joshua Walker run for 3 yds to the Navy 22
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,11,3,2426,Navy,NAVY,349,Army,ARMY,13,7,FALSE,4,13:25,Rush,3,8,22,2,24,Chris High run for 2 yds to the Navy 24
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,11,4,2426,Navy,NAVY,349,Army,ARMY,13,7,FALSE,4,12:50,Punt,4,6,24,40,65,"Owen White punt for 40 yds , John Trainor returns for a loss of 1 yard to the Army 35"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,0,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,12:44,Rush,1,10,65,12,53,Ahmad Bradshaw run for 12 yds to the Army 47 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,1,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,12:14,Rush,1,10,53,12,41,Ahmad Bradshaw run for 12 yds to the Navy 41 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,2,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,11:36,Rush,1,10,41,9,32,Ahmad Bradshaw run for 9 yds to the Navy 32
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,3,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,10:57,Rush,2,1,32,3,29,Andy Davidson run for 3 yds to the Navy 29 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,4,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,10:15,Rush,1,10,29,5,24,Ahmad Bradshaw run for 5 yds to the Navy 24
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,5,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,9:33,Rush,2,5,24,3,21,Darnell Woolfolk run for 3 yds to the Navy 21
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,6,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,8:52,Rush,3,2,21,2,19,Ahmad Bradshaw run for 2 yds to the Navy 19 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,7,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,8:23,Rush,1,10,19,5,14,Ahmad Bradshaw run for 5 yds to the Navy 14
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,8,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,7:40,Rush,2,5,14,4,10,Andy Davidson run for 4 yds to the Navy 10
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,9,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,7:04,Rush,3,1,10,1,9,Ahmad Bradshaw run for 1 yd to the Navy 9 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,10,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,6:37,Rush,1,9,9,0,9,Ahmad Bradshaw run for no gain to the Navy 9
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,11,349,Army,ARMY,2426,Navy,NAVY,13,7,FALSE,4,5:57,Rush,2,9,9,8,1,John Trainor run for 8 yds to the Navy 1
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,12,12,349,Army,ARMY,2426,Navy,NAVY,13,14,TRUE,4,5:10,Rushing Touchdown,3,0,1,1,0,Ahmad Bradshaw 1 Yd Run (Blake Wilson Kick)
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,0,349,Army,ARMY,2426,Navy,NAVY,13,14,FALSE,4,5:10,Kickoff,3,2,65,0,35,Nick Schrage kickoff for 45 yds
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,1,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,5:03,Rush,1,10,35,6,41,Malcolm Perry run for 6 yds to the Navy 41
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,2,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,4:30,Rush,2,4,41,4,45,Malcolm Perry run for 4 yds to the Navy 45 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,3,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,3:50,Rush,1,10,45,-2,43,TEAM run for a loss of 2 yards to the Navy 43
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,4,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,3:35,Rush,2,12,43,13,56,Malcolm Perry run for 13 yds to the Army 44 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,5,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,3:20,Rush,1,10,56,2,58,Malcolm Perry run for 2 yds to the Army 42
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,6,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,2:41,Rush,2,8,58,4,62,Malcolm Perry run for 4 yds to the Army 38
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,7,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,2:05,Rush,3,4,62,1,63,Malcolm Perry run for 1 yd to the Army 37
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,8,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,2:05,Timeout,4,3,63,0,63,"Timeout NAVY, clock 02:05"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,9,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,2:05,Timeout,4,3,63,0,63,"Timeout ARMY, clock 02:05"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,10,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,1:58,Rush,4,3,63,12,75,Malcolm Perry run for 12 yds to the Army 25 for a 1ST down
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,11,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,1:28,Rush,1,10,75,2,77,Malcolm Perry run for 2 yds to the Army 23
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,12,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,1:20,Penalty,2,8,77,-5,72,"NAVY Penalty, False Start (Evan Martin) to the Army 28"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,13,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,1:00,Rush,2,13,72,2,74,Chris High run for 2 yds to the Army 26
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,14,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,0:32,Penalty,3,11,74,-5,69,"NAVY Penalty, False Start (Tyler Carmona) to the Army 31"
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,15,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,0:12,Rush,3,16,69,0,69,Malcolm Perry run for no gain to the Army 31
+400934572,2017,15,2426,Navy,NAVY,349,Army,ARMY,13,16,2426,Navy,NAVY,349,Army,ARMY,13,14,FALSE,4,0:03,Timeout,4,16,69,0,69,"Timeout NAVY, clock 00:03"
