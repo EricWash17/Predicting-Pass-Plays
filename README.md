@@ -38,6 +38,8 @@ Although I tried stacking several types of models (Random Forest, Neural Net, La
 
 # Code 
 Run the code in the following order:
--Prepare Data
+- Prepare Data
 - XGB Tune (optional)
-- Model
+- FinalModel
+- ly (optional)
+- Other Models
