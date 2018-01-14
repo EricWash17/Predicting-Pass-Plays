@@ -35,3 +35,9 @@ Although I tried stacking several types of models (Random Forest, Neural Net, La
 # Missing information that could improve this model include:
 - QB scrambles. In the current data set, there is no way to differentiate between called QB runs and QB scrambles. In other words, a team could call a pass play that, due to QB improvisation, turns into a run play.  
 - Formation information.
+
+# Code 
+Run the code in the following order:
+-Prepare Data
+- XGB Tune (optional)
+- Model
