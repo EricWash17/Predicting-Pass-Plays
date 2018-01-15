@@ -5,7 +5,7 @@ library(Hmisc)
 library(chron)
 library(dummies)
 
-### Loading Data
+# Loading Data
 yr = as.character(seq(from = 2014, to = 2017, by = 1))
 wk = as.character(seq(from = 1, to = 15, by = 1))
 
@@ -57,8 +57,10 @@ plays[, homeTeam := ifelse(homeTeam == "Hawaii","Hawai'i" ,homeTeam)]
 plays[, offenseTeam := ifelse(offenseTeam == "Hawaii","Hawai'i" ,offenseTeam)]
 plays[, defenseTeam := ifelse(defenseTeam == "Hawaii","Hawai'i" ,defenseTeam)]
 
+#######################################################################################
+### Identifying pass plays
 
-### Keeping only Run and Pass plays
+# Words used to identify play types
 p = c("pass","sack","passing","interception","sacked","scramble")
 r = c("rush","rushing","run")
 o = c("fumble","safety","penalty")
@@ -95,6 +97,7 @@ plays[, keep := NULL]
 rm(list = c('o','p','r','pass','other','rush','t','to'))
 table(plays$pass)
 
+###########################################################################################
 ### Clock
 # Turning clock to seconds (0 (Start) - 3600 (End))
 ch = strptime(plays$clock, format = "%M:%S") 
@@ -118,8 +121,10 @@ plays = plays[,c("gameId","week","year","homeTeam", "awayTeam","offenseTeam","de
                  "homeScore","awayScore", "down","distance","yardLine", "yardsGained", "isScoringPlay",
                  "description","type","driveIndex", "playIndex", "under3", "pass")]
 
-### Splitting to make only one team on offense per game, will rbind later
+#################################################################################################
+### Feature engineering
 
+# Splitting to make only one team on offense per game, will rbind later
 plays = plays[order(gameId,driveIndex,playIndex),]
 plays[, run := 1-pass]
 plays[,home := ifelse(homeTeam == offenseTeam,1,0)]
@@ -188,8 +193,8 @@ ma = function(data){
   new[, p_perc := ptot/plays, by = gameId] # Percent pass plays up to each play by game
   new[, mx := max(plays), by = gameId] # Flagging last play per game per team
   new[, imx := ifelse(mx == plays,1,0)]
-  #### Enter binary for 1st down, 2nd short, etc
-  new$pass_ma <- na.locf(new$pass_ma,na.rm=FALSE) # backfilling NAs
+  # backfilling NAs
+  new$pass_ma <- na.locf(new$pass_ma,na.rm=FALSE) 
   new$rush_ma <- na.locf(new$rush_ma,na.rm=FALSE)
   return(new)
 }
@@ -197,10 +202,14 @@ ma = function(data){
 home = ma(home)
 away = ma(away)
 
-### Combing to make final dataset
+### Combining to make final dataset
 plays = rbind(home,away)
 rm(list = c('home','away'))
 
+####################################################################################################
+### Season calculations of team specific passing tenencies
+
+# Creating down and distance indicators to later calculate corresponding playcalling trends
 plays[, dwn1 := ifelse(down == 1,TRUE,FALSE)]
 plays[, dwn2L := ifelse(down == 2 & distance >= 5,TRUE,FALSE)]
 plays[, dwn2S := ifelse(down == 2 & distance < 5,TRUE,FALSE)]
@@ -208,8 +217,7 @@ plays[, dwn3L := ifelse(down == 3 & distance >= 5,TRUE,FALSE)]
 plays[, dwn3S := ifelse(down == 3 & distance < 5,TRUE,FALSE)]
 plays[, dwn4 := ifelse(down == 4,TRUE,FALSE)]
 
-
-####################################################################
+## Function to calculate percent pass plays call on given down and distance (short or long)
 # x = subset info, y name of new column name
 specific = function(x,y){
   new = plays[x==TRUE, c('gameId','offenseTeam','pass','week','year','driveIndex','playIndex')]
@@ -286,7 +294,7 @@ plays = plays[, p_prob := ifelse(p_prob == 0,.001,
 plays = plays[, p_perc := ifelse(p_perc == 0,.001,
                                  ifelse(p_perc == 1, .999,p_perc))]
 
-#####################################################################
+########################################################################
 # Loading S&P data
 sp = fread('SP.csv')
 
