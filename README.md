@@ -12,6 +12,7 @@ Knowing when an opponent will run or pass can dramatically alter how a team play
 - Quarter (1-5, with 5 indicating OT)
 - Goaline indicator (within opponent's 10 yardline)
 - Fg Range indicator (Within opponent's 30 yardline)
+- S&P ratings of the opposing team
 
 Interactions
 - Down * Distance
