@@ -1,8 +1,3 @@
-rm(list=ls())
-gc()
-
-setwd("C:/Users/Eric/Desktop/NCSTATE/Projects/PlayCall/data")
-
 library(data.table)
 library(dplyr)
 library(stringr)
