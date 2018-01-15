@@ -265,6 +265,7 @@ row_nums = 1:N
 test_rows = sample(row_nums, N/5)
 train_rows = row_nums[-test_rows]
 
+# Logistic Stack
 stk.fit = glm(v_pass~., data = DT[train_rows], family=binomial(link='logit'))
 summary(stk.fit)
 
@@ -275,6 +276,7 @@ glm.pred[stk.preds>.5] = 1
 
 mean(glm.pred==DT[-train_rows]$v_pass)
 
+# Random Forest Stack
 rf.fit = randomForest(v_pass~., data = DT[train_rows], mtry = 2, nodesize = 15)
 rf.stkpreds = predict(rf.fit,newdata = DT[-train_rows],type = 'response')
 mean(rf.stkpreds==DT[-train_rows]$v_pass) # .68
