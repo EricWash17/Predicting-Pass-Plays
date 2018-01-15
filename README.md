@@ -14,8 +14,8 @@ Knowing when an opponent will run or pass can dramatically alter how a team play
 - Fg Range indicator (Within opponent's 30 yardline)
 
 Interactions
-- Down * distance
-- Score * time
+- Down * Distance
+- Score * Time
 
 ## Calculated variables 
 (All calculated data was lagged, meaning the variables were based on plays prior to the given prediction) 
